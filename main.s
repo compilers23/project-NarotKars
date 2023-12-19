@@ -5,7 +5,7 @@
 .section .text
 .globl _start
 _start:
-  mov $42, %rsi
+ #mov $42, %rsi
 	call print
 exit:
 
